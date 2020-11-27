@@ -1,0 +1,51 @@
+/* 
+CSS RESET 
+*/
+body{
+    background-color: white;
+    color: black;
+}
+
+
+
+
+header,
+main,
+footer{
+
+    /*border: 1px solid black;*/
+    outline: 1px solid black;
+
+}
+/*Header menu */
+
+header{
+    height: 200px;
+
+}
+nav{
+    height: 53px;
+    outline: 1px solid black;
+}
+ul{
+
+list-style: none;
+display: flex;
+
+}
+li{
+    outline: 1px solid black;
+    min-width: 330px;
+    margin: 0 ;
+    text-align: center;
+}
+
+main{
+    height: 300px;
+    
+}
+
+footer{
+    height: 50px;
+    
+}
